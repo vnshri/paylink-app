@@ -1,0 +1,1126 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Wendy One', sans-serif;
+}
+
+/* Navbar */
+#paylinkNavbar {
+  background-color: #104042;
+  padding: 15px 0;
+}
+
+.paylink-logo {
+    font-family: 'Wendy One', sans-serif;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.paylink-logo:hover {
+    color: white;
+}
+
+.nav-link-custom {
+  font-weight: 600;
+  margin-left: 20px;
+  color: white;
+}
+
+.nav-link-custom:hover {
+  color: #afff1a;
+}
+
+
+/* Footer ============*/
+#paylinkFooter {
+  background-color: #012022;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+/* .paylink-footer-brand {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Wendy One', sans-serif;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(0, 247, 255, 0.5);
+} */
+
+
+
+
+/* Hero Section */
+#paylinkHero {
+  background-color: #104042;
+  color: white;
+  padding: 100px 0 60px;
+}
+
+.hero-title {
+    font-family: 'Wendy One', sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.hero-caption {
+  color: white;
+  font-weight: bold;
+}
+
+.hero-subtext {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-top: 15px;
+}
+
+.hero-image {
+  max-height: 900px;
+}
+
+.paylink-btn {
+  background-color: #afff1a;
+  color: #000;
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 3px 3px 0 black;
+  padding: 10px 24px;
+  margin-left: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.paylink-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 0 black;
+  border: 1px solid #afff1a;
+  color: white;
+}
+
+.paylink-play-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 15px;
+}
+
+
+/* circle to rotate continuesly */
+.rotating-image {
+  width: 50px;
+  height: auto;
+  animation: rotateInfinite 5s linear infinite;
+}
+
+@keyframes rotateInfinite {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#easy-text-col{
+  margin-bottom: 50px;
+}
+
+
+
+/* Join Section */
+#paylinkJoin {
+  background-color: #afff1a;
+  transform: skewY(-2.5deg);
+  margin-top: -20px;
+  z-index: 1;
+  position: relative;
+}
+
+#paylinkJoin .container {
+  transform: skewY(2.5deg); /* Cancel skew inside */
+}
+
+.join-heading {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.highlight-count {
+    font-size: 2.2rem;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.partner-logo {
+  max-height: 60px;
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+}
+
+.partner-logo:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Why Choose PayLink Section */
+
+/* WHY CHOOSE US SECTION - Unique styles */
+
+#why-choose {
+  background: #ffffff;
+  padding: 80px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.why-container {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.why-left {
+  flex: 1 1 48%;
+}
+
+.why-title {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.why-highlight {
+  color: #00ff7f;
+}
+
+.why-feature {
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+
+.why-icon {
+  width: 50px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.why-text h3 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.why-text p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* RIGHT COLUMN */
+.why-right {
+  flex: 1 1 48%;
+  /* background-color: #083c43; */
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  padding: 40px 20px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-main-img {
+  width: 100%;
+  max-height: 620px;
+  position: relative;
+  z-index: 2;
+}
+
+.why-decor-line {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 200px;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.why-decor-circles {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  width: 120px;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+/* why choose us */
+
+#why-choose-us {
+  padding: 80px 20px;
+  background-color: #f5f9fc;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 42px;
+  color: #000;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-box {
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transform: translateY(30px);
+  opacity: 0;
+  animation: slideUp 1s ease forwards;
+}
+
+.feature-box:nth-child(even) {
+  animation-delay: 0.2s;
+}
+
+.feature-box:nth-child(odd) {
+  animation-delay: 0.4s;
+}
+
+.feature-box.yellow {
+    background-color: #ffd400;
+    color: #000;
+    padding: 60px 60px;
+}
+
+.feature-box.dark {
+  background-color: #0c3d40;
+  color: #fff;
+      padding: 60px 60px;
+
+}
+
+.feature-icon {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.feature-box h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.feature-box p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+@keyframes slideUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* FAQ Section */
+/* FAQ SECTION */
+#faq-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.faq-heading .faq-tag {
+  font-weight: bold;
+  color: #0033ff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.faq-heading .faq-icon {
+  font-size: 20px;
+  margin-right: 4px;
+}
+
+.faq-title {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 36px;
+  margin: 10px 0;
+  color: #111;
+}
+
+.faq-subtitle {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  color: #444;
+}
+
+.faq-category-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.faq-category-box {
+  background-color: #f5f9fc;
+  padding: 30px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-bottom: 4px solid transparent;
+}
+
+.faq-category-box.active {
+  background-color: #0b3e3e;
+  color: #fff;
+  border-bottom: 4px solid #adff2f;
+}
+
+.faq-category-box:hover {
+  transform: translateY(-5px);
+}
+
+.faq-category-box img.faq-icon-img {
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.faq-category-box p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+
+
+/*  LOGIN PAGE ================================= */
+
+.paylink-login-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0px;
+    background-color: #104042;
+}
+
+.paylink-login-container {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.paylink-login-title {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.paylink-login-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.paylink-login-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  background-color: #104042;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.paylink-login-btn:hover {
+  background-color: #000;
+}
+
+.paylink-login-message {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.paylink-login-links {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.paylink-login-links a {
+  color: #104042;
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+
+.paylink-login-links a:hover {
+  color: #000;
+  text-decoration: none;
+ 
+}
+
+
+
+
+
+/* ===== About Us Page Custom Styling ===== */
+
+/* Section Titles */
+.about-heading {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 42px;
+  color: #104042;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-subheading {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+
+
+/* Team Cards */
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #104042;
+  font-family: 'Lato', sans-serif;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+    width: 92%;
+    border-radius: 10px 10px 0 0;
+}
+
+/* CTA Section */
+.cta-section {
+  background-color: #104042;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 32px;
+  font-family: 'Wendy One', sans-serif;
+}
+
+.cta-section p {
+  font-size: 16px;
+  color: #ddd;
+}
+
+.cta-section .paylink-btn {
+  margin-top: 15px;
+  padding: 10px 30px;
+  background-color: #afff1a;
+  border: 2px solid black;
+  box-shadow: 3px 3px 0 black;
+  color: black;
+  font-weight: bold;
+}
+
+.cta-section .paylink-btn:hover {
+  background-color: #dfff36;
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 0 black;
+  color:white;
+}
+
+
+
+
+/* About Section Styling */
+.about-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.about-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.about-title {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.about-list i {
+  color: #104042;
+  margin-right: 8px;
+}
+
+.btn-learn-more {
+  background-color: #afff1a;
+  font-weight: bold;
+  border: none;
+  box-shadow: 3px 3px 0 #0e3a3c;
+  padding: 10px 20px;
+  color: #000;
+}
+
+.btn-learn-more:hover {
+  background-color: #d0ff5c;
+  box-shadow: 4px 4px 0 #000;
+}
+
+/* Accordion Custom Colors */
+.bg-lime {
+  background-color: #afff1a !important;
+}
+
+.accordion-button {
+  border-radius: 8px;
+}
+
+.accordion-body {
+  font-size: 15px;
+  background: #fff;
+  border-radius: 0 0 10px 10px;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-active-icon);
+    transform: var(--bs-accordion-btn-icon-transform);
+    background-color: white;
+    padding: 10px;
+    border-radius: 30%;
+}
+
+/* .accordion-button::after {
+  background-image: var(--bs-accordion-btn-active-icon);
+    transform: var(--bs-accordion-btn-icon-transform);
+    background-color: white;
+    padding: 10px;
+    border-radius: 30%;
+
+} */
+
+.about-middle-img {
+    width: 080%;
+    margin-left: 60px;
+    height: 500px;
+}
+
+/* banking section */
+/* Section Styling */
+#paylink-stats {
+  margin-top: 80px;
+  background-color: #f5f9fc;
+}
+
+/* Left Side (angled background) */
+.stats-left {
+  background-color: #0c3d40;
+  padding: 100px 20px;
+  position: relative;
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+}
+
+.stats-number {
+  font-size: 72px;
+  font-weight: bold;
+  color: #afff1a;
+  font-family: 'Wendy One', sans-serif;
+  margin-bottom: 10px;
+}
+
+.stats-text {
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+}
+
+/* Right Side */
+.stats-right {
+  background-color: white;
+}
+
+.circle-stat {
+  width: 100px;
+  height: 100px;
+  border: 3px solid blue;
+  border-radius: 50%;
+  font-size: 26px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.stat-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.stat-desc {
+  font-size: 15px;
+  color: #333;
+}
+
+.border-blue {
+  border-color: blue !important;
+}
+
+/* Responsive fix */
+@media screen and (max-width: 991px) {
+  .stats-left {
+    clip-path: none;
+    border-radius: 0;
+  }
+}
+
+/* Why Text Section Only */
+.why-text-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.why-mini-heading {
+  font-weight: bold;
+  font-size: 14px;
+  color: #104042;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.why-main-heading {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.highlight-paynone {
+  color: #afff1a;
+}
+
+.why-description {
+  font-size: 16px;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+
+/* team */
+
+/* === Meet Our Team Section === */
+/* === Meet Our Team Section === */
+#team-section {
+  background-color: #e9f7f6;
+  padding: 80px 0;
+}
+
+.team-heading {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  color: #104042;
+  margin-bottom: 10px;
+}
+
+.team-subtext {
+  font-size: 16px;
+  color: #666;
+}
+
+.team-member {
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+}
+
+.team-member:hover {
+  transform: translateY(-8px);
+}
+
+.team-img-wrap {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #afff1a;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.team-member:hover .team-img-wrap {
+  box-shadow: 0 0 25px #afff1a;
+}
+
+.team-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.team-member:hover img {
+  transform: scale(1.1);
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #104042;
+  margin-bottom: 5px;
+}
+
+.team-role {
+  font-size: 14px;
+  color: #666;
+}
+
+
+/* Blog Page=================== */
+
+/* === Blog Section === */
+#blog-section {
+  background-color: #f8f9fa;
+  padding: 80px 20px;
+}
+
+.blog-heading {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 40px;
+  color: #104042;
+  margin-bottom: 10px;
+}
+
+.blog-subtext {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.blog-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.blog-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.blog-title {
+  font-size: 18px;
+  color: #104042;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.blog-desc {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  color: #104042;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.read-more:hover {
+  color: #afff1a;
+}
+
+/* Register Page ================= */
+/* ========== REGISTER & LOGIN PAGE SHARED STYLES ========== */
+
+/* ========== REGISTER & LOGIN PAGE SHARED STYLES ========== */
+
+.paylink-login-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 90px 0px;
+  background-color: #104042;
+}
+
+.paylink-login-container {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: #000;
+  transition: transform 0.3s ease;
+}
+
+.paylink-login-container:hover {
+  transform: translateY(-5px);
+}
+
+.paylink-login-title {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.paylink-login-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.paylink-login-input:focus {
+  border-color: #104042;
+  outline: none;
+}
+
+.paylink-login-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  background-color: #104042;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.paylink-login-btn:hover {
+  background-color: #000;
+}
+
+.paylink-login-message {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.paylink-login-links {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.paylink-login-links a {
+  color: #104042;
+  text-decoration: none;
+}
+
+.paylink-login-links a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+/* Payment Page =========================== */
+
+/* Form Section */
+.payment-section {
+  padding: 80px 20px 40px;
+  background-color: #f8f9fa;
+}
+
+.payment-form-wrapper {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form-wrapper h2 {
+  font-size: 30px;
+  color: #104042;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #104042;
+}
+
+.form-control,
+.form-select {
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.paylink-btn {
+  background-color: #afff1a;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.paylink-btn:hover {
+  background-color: #dfff4f;
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Section */
+.payment-table-section {
+  background-color: #002829;
+  padding: 40px 20px;
+  color: white;
+}
+
+.payment-table-section h3 {
+  text-align: center;
+  font-family: 'Wendy One', sans-serif;
+  margin-bottom: 30px;
+}
+
+table {
+  background-color: #0e3a3c;
+}
+
+thead {
+  background-color: #073032;
+}
+
+th {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+td {
+  color: #eee;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+/* Table Styling */
+.payment-table-section table {
+  background-color: #0e3a3c;
+  color: white;
+  border-collapse: collapse;
+}
+
+.payment-table-section thead {
+  background-color: #073032;
+}
+
+.payment-table-section th,
+.payment-table-section td {
+  padding: 12px;
+  border: 1px solid #094646;
+}
+
+.payment-table-section tbody {
+  background-color: #0e3a3c;
+}
+
+.payment-table-section td {
+  color: #ffffff;
+}

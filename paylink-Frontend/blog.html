@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Page</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="paylinkNavbar" class="navbar navbar-expand-lg paylink-nav">
+    <div class="container">
+      <!-- <a class="navbar-brand paylink-logo" href="#">
+        <img src="assets/images/logo.png" alt="PayLink Logo" height="32" class="me-2" />
+        PayLink
+      </a> -->
+      <a class="navbar-brand paylink-logo" href="#">
+        PayLink
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="about.html">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#">BLOG</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#">CONTACT</a></li>
+          <li class="nav-item">
+            <a href="login.html" class="btn paylink-btn">SIGN IN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Section -->
+  <section id="blog-section" class="py-5">
+    <div class="container text-center">
+      <h2 class="blog-heading">PayLink Insights</h2>
+      <p class="blog-subtext">Explore articles, tips & updates in the world of secure digital payments.</p>
+
+      <div class="row mt-5 g-4 justify-content-center">
+        <!-- Blog Post 1 -->
+        <div class="col-md-4">
+          <div class="blog-card">
+            <img src="Images/blog1.jpg" alt="Blog 1" class="blog-img">
+            <div class="blog-content">
+              <h5 class="blog-title">5 Ways PayLink Makes Online Payments Easier</h5>
+              <p class="blog-desc">Discover how PayLink simplifies transactions and provides a secure platform for global money transfers.</p>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Post 2 -->
+        <div class="col-md-4">
+          <div class="blog-card">
+            <img src="Images/blog2.jpg" alt="Blog 2" class="blog-img">
+            <div class="blog-content">
+              <h5 class="blog-title">Securing Your Transactions: Behind the Scenes</h5>
+              <p class="blog-desc">A closer look at how PayLink protects your financial data through encryption and security layers.</p>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Post 3 -->
+        <div class="col-md-4">
+          <div class="blog-card">
+            <img src="Images/blog3.jpg" alt="Blog 3" class="blog-img">
+            <div class="blog-content">
+              <h5 class="blog-title">The Future of Digital Payments</h5>
+              <p class="blog-desc">How PayLink is innovating to shape the future of global payments with smart technology.</p>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- =========================  Footer ================================= -->
+  <footer id="paylinkFooter" class="paylink-footer text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 PayLink. All rights reserved.</p>
+            <p class="mb-0 paylink-footer-brand">Designed by &radic;nshri Amar Deshpande</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
